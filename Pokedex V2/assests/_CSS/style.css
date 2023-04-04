@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, #d4d3dd, #efefbb, #f8b679);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokeContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 5rem;
+    max-width: 1400px;
+}
+
+.pokemon{
+    background-color: #f5cc73;
+    border-radius: 9px;
+    box-shadow:  0px 3px 15px rgba(100, 100, 100, 0.5);
+    margin: 10px;
+    padding: 5rem;
+    text-align: center;
+}
+
+.imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+}
+
+.imgContainer img{
+    max-width: 90%;
+}
+
+.info{
+    margin-top: 20px;
+}
+
+.number{
+    background-color: rgba(100, 100, 100, 0.5);
+    padding: 2.5px 14px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    font-weight:900;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 15px 10px 10px;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+	border: none;
+    border-radius: 10px;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 350px;
+    font-weight: 800;text-align: center;
+    font-family: 'Outfit', sans-serif;
+    background-color:rgb(255, 255, 255);
+    top: 2rem;
+}
